@@ -1,0 +1,66 @@
+.content--card {
+    display: grid; 
+    padding: 2rem; 
+    grid-auto-columns:450px;
+    grid-template-rows:20px;
+    border: 1px solid; 
+    border-radius: 30px;
+    row-gap:0px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.content--img {
+    grid-template-columns: auto auto;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    height: 350px;
+    width: 450px;
+    margin: 0%;
+}
+
+.content--location {
+    display:flex;
+    height: 30px;
+    margin-left: 10px;
+    grid-row-start: 1;
+  	grid-row-end: 2;
+}
+
+.location--logoGoogleMaps {
+    height: 23px;    
+    margin-top: 14px;     
+}
+
+.location--country {    
+    margin-left: 6px;    
+}
+
+.location--link {
+    margin-top: 13.5px;
+    margin-left:24px;
+}
+
+.content--city {    
+    margin-left: 14px;  
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.content--period {
+    font-family: bold;    
+    margin-left:14px;
+}
+
+.feature {
+    position: absolute;
+    top: 5px;
+    left:4px;
+    padding: 4px 5px;
+    font-weight: bold;
+    background-color: coral;
+    opacity: calc(50%);
+    border-radius: 15px;    
+}

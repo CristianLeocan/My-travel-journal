@@ -1,0 +1,20 @@
+nav {
+    display: flex;
+    border-radius: 30px;
+    border-bottom: 5px solid;
+    background-color: chocolate;    
+}
+
+.nav--text {
+    color:white;
+    margin-left: 20px;
+    padding: 70px;
+    margin-left:calc(30%) + 300px;
+}
+
+.nav--img {
+    margin-left:calc(30%);
+    margin-top:5px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+}
